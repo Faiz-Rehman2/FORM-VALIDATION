@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>FORM USING VALIDATION & REGEX</h1>
+    <form id="registrationForm">
+        <label for="username">UserName</label> <br>
+        <input type="text" id="username" name="username" required>
+        <br>
+        
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+        
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" name="password" required>
+        <br>
+        
+        <label for="cnic">CNIC</label> <br>
+        <input type="text" id="cnic" name="cnic" required>
+        <br>
+        
+        <label for="age">Age</label> <br>
+        <input type="number" id="age" name="age" required>
+        <br>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+</html>

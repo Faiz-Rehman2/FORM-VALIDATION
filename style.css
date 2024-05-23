@@ -1,0 +1,26 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+body{
+    color: rgb(183, 174, 174);
+    background-color: rgb(64, 79, 95);
+}
+
+h1{
+    text-align: center;
+}
+
+#registrationForm{
+    text-align: center;
+}
+
+#registrationForm label{
+    margin: 9px;
+}
+#registrationForm input{
+    margin: 5px;
+}
+
